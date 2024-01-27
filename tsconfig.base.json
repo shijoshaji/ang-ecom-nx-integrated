@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ang-ecom-nx-integrated/home": ["libs/src/index.ts"]
+      "@ang-ecom-nx-integrated/category": ["libs/category/src/index.ts"],
+      "@ang-ecom-nx-integrated/home": ["libs/home/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
